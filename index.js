@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const app = express();
 const cors = require("cors");
 const port = 8000;
-const Order = require('./order.model.js');
+const Order = require("./orders.model.js");
 
 app.use(cors());
 app.use(morgan());
